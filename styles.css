@@ -101,12 +101,18 @@ footer .rightFooter{
 }
 .rightFooter.noflex{
     width: 100%;
+    line-height: 20vh;
 }
 footer.noflex{
     display: block;
 }
 .rightFooter.noflex h2{
     text-align: end;
+    line-height: 1;
+    display: inline-block;
+    width: calc(100% - 20px);
+    vertical-align: middle;
+    margin: 0;
 }
 .rightBanner.noflex h1{
     display: inline-block;
@@ -196,4 +202,11 @@ table.header{
 }
 table.article{
     height: fit-content;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding-top: 0;
+    padding-bottom: 0;
 }
